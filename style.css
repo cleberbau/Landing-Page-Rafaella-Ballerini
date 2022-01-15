@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body { 
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+
+}
+
+.logomarca{
+    height:120px;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;   
+
+}
+
+.lista {
+    color:#FFF2E7;
+    ;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.principal{
+    border-top: 0.4px solid #fff2ef;
+    padding:40px;
+    margin-bottom: 80px;
+}
+
+.parte-um{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 120px;
+}
+
+.texto {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 30px;;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    color:#FFF2E7;
+    font-weight: 400;
+    font-size: 64px;
+}
+
+h2 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color:#FFF2E7;
+}
+.tenis{
+    height: 300px;
+}
+@media only screen and (max-width: 800px) {
+    .tenis{
+     height: 50px;
+    }
+  }
+
+.botao{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border:none;
+    border-radius: 10px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 18px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.botao:hover{
+    background-color: #fff;
+}
+
+.parte-dois{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ h3 {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color:#FFF2E7;
+    border-top: 0.4px solid #fff;
+    padding-top: 30px;
+ }
+
+.paragrafo {
+    font-family: 'Sarala', sans-serif;
+    font-size: 14px;
+    color:#FFF2E7;
+    padding: 10px;
+ }
+
+ .rodape{
+     border-top: 0.4px solid #fff;
+ 
+ }
+
+ .final{
+     height: 200px;
+     display: block;
+     margin: 0 auto;
+    
+ }
